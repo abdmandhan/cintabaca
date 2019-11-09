@@ -58,7 +58,7 @@
         }
 
         function backLogin(){
-            location.replace("view-login.php")
+            location.replace("../method/logout.php")
         }
     </script>
 </body>

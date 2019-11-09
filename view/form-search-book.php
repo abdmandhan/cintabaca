@@ -1,5 +1,5 @@
 <?php
-    if($_GET['search']=='failed') 
+    if(@$_GET['search']=='failed') 
         echo "<script type='text/javascript'>alert('Buku Tidak Tersedia');</script>";
 
 ?>
